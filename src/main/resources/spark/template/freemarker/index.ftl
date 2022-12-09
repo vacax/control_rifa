@@ -7,8 +7,20 @@
 
     <title>Control Rifa</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-
-
+    <style>
+     .tamano{
+         padding: 15px 32px;
+         text-align: center;
+         text-decoration: none;
+         display: inline-block;
+         font-size: 25px;
+         margin-bottom: 25px;
+     }
+     .separacion{
+         padding: 10px;
+         margin-bottom: 10px;
+     }
+    </style>
 </head>
 <body>
 
@@ -17,11 +29,11 @@
         <h1 class="display-4">Control de Rifa PUCMM</h1>
     </div>
     <div class="row">
-        <button id="boton" type="button" class="btn btn-lg btn-block btn-primary">Buscar Ganador</button>
-        <div id="seleccionar" class="container-fluid btn-group-vertical d-none">
-            <button id="aprobado" type="button" class="btn btn-lg btn-block btn-success">Aprobado</button>
-            <button id="noPresente" type="button" class="btn btn-lg btn-block btn-danger">No Presente</button>
-            <button id="cancelar" type="button" class="btn btn-lg btn-block btn-warning">Cancelar</button>
+        <button id="boton" type="button" class="btn btn-lg btn-block btn-primary tamano">Buscar Ganador</button>
+        <div id="seleccionar" class="container-fluid btn-group-vertical d-none separacion">
+            <button id="aprobado" type="button" class="btn btn-lg btn-block btn-success tamano">Aprobado</button>
+            <button id="noPresente" type="button" class="btn btn-lg btn-block btn-danger tamano">No Presente</button>
+            <button id="cancelar" type="button" class="btn btn-lg btn-block btn-warning tamano">Cancelar</button>
         </div>
     </div>
 
